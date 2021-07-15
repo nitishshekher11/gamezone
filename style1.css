@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    overflow: hidden;
+    background: rgb(255, 175, 2);
+  }
+  
+  .logo i {* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    overflow: hidden;
+    background: rgb(255, 175, 2);
+  }
+  
+  .logo i {
+    color: rgb(107, 51, 4);
+  }
+  /* body{
+      background: #282828;
+      background: linear-gradient(-45deg,#424141,#10d5db,#12aae6,#d49305) ;
+      background-size: 400% 400%;
+      animation: Gradient 15s ease infinite;
+  }
+  @-webkit-keyframes Gradient{
+      0%{
+          background-position: 0% 50%;
+      }
+      50%{
+          background-position: 50% 100%;
+      }
+      100%{
+          background-position: 0% 50%;
+      }
+  } */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .webber {
+    position: absolute;
+  
+    width: 100%;
+    height: 250%;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+  }
+  .box div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10%;
+  }
+  .box div:nth-child(1) {
+    top: 12%;
+    left: 32%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(2) {
+    top: 30%;
+    left: 45%;
+    animation: animate 7s linear infinite;
+  }
+  .box div:nth-child(3) {
+    border-radius: 50%;
+    top: 27%;
+    left: 1%;
+    animation: animate 9s linear infinite;
+  }
+  .box div:nth-child(4) {
+    border-radius: 50%;
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+  }
+  .box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+  }
+  .box div:nth-child(7) {
+    border-radius: 50%;
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+  }
+  .box div:nth-child(8) {
+    top: 52%;
+    left: 32%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(9) {
+    top: 92%;
+    left: 42%;
+    animation: animate 7s linear infinite;
+  }
+  .box div:nth-child(10) {
+    top: 40%;
+    border-radius: 10%;
+    left: 70%;
+    animation: animate 7s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: scale(0) translateY(0) rotate(0);
+    }
+    100% {
+      transform: scale(1.3) translateY(-90px) rotate(360deg);
+    }
+  }
+  .logo {
+    font-family: "Righteous", cursive;
+    padding: 15px;
+  
+    font-size: 60px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar .headings ul {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .navbar .headings ul li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  .headings input {
+    padding: 10px;
+    padding-left: 17px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 30px;
+  }
+  .headings input:hover {
+    background-color: rgb(185, 183, 183);
+  }
+  .log-in {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .log-in a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .info {
+    font-family: "Bubblegum Sans", cursive;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  
+    margin-top: 30px;
+  }
+  .info img {
+    width: 20%;
+    size: 20px;
+    float: right;
+    position: static;
+    margin-top: -7%;
+    margin-right: 5%;
+    border-radius: 10px;
+  }
+  
+  .friends {
+    padding-left: 600px;
+  }
+  .friends2{
+    padding-left: 300px;
+  }
+  .profile {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+  /* body{
+      background-color: rgb(27, 27, 27);
+  } */
+  .info p {
+    color: rgb(182, 181, 181);
+    padding: 30px;
+  }
+  .info ul {
+    color: white;
+    font-size: 20px;
+    padding-left: 100px;
+  }
+  .timings {
+    text-align: center;
+  }
+  
+  .info i1 {
+    color: rgb(7, 119, 224);
+    padding-right: 30px;
+  }
+  .info i2 {
+    color: rgb(231, 112, 15);
+    padding-right: 30px;
+  }
+  .info i3 {
+    color: rgb(20, 204, 20);
+    padding-right: 30px;
+  }
+  .info i0 {
+    color: rgb(24, 224, 174);
+    padding-right: 30px;
+  }
+  .info i4 {
+    color: white;
+    padding-right: 30px;
+  }
+  .info i5 {
+    padding-right: 30px;
+    color: rgb(245, 26, 128);
+  }
+  .games {
+    background-image: url(https://www.onlinelogomaker.com/blog/wp-content/uploads/2019/08/load-image-3.jpg);
+    background-size: cover;
+    
+    width: 60%;
+    height: 30%;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 0px;
+    margin-left: 17%;
+  }
+  .under img{
+      float: left;
+      margin-top: -2%;
+      margin-left: 6%;
+  }
+  .fortnite img{
+    float: left;
+      margin-top: -2%;
+      margin-left: 6%;
+  }
+  .nfs img{
+    width: 40%;
+    float: right;
+    margin-right: 37%;
+    margin-top: -45%;
+  }
+  .pubg img{
+    width: 35%;
+    margin-right: 38%;
+    margin-top: -5%;
+  }
+  .gta img{
+    width: 30%;
+    margin-right: 78%;
+    margin-top: -9%;
+  }
+  
+    color: rgb(107, 51, 4);
+  }
+  /* body{
+      background: #282828;
+      background: linear-gradient(-45deg,#424141,#10d5db,#12aae6,#d49305) ;
+      background-size: 400% 400%;
+      animation: Gradient 15s ease infinite;
+  }
+  @-webkit-keyframes Gradient{
+      0%{
+          background-position: 0% 50%;
+      }
+      50%{
+          background-position: 50% 100%;
+      }
+      100%{
+          background-position: 0% 50%;
+      }
+  } */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .webber {
+    position: absolute;
+  
+    width: 100%;
+    height: 250%;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+  }
+  .box div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10%;
+  }
+  .box div:nth-child(1) {
+    top: 12%;
+    left: 32%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(2) {
+    top: 30%;
+    left: 45%;
+    animation: animate 7s linear infinite;
+  }
+  .box div:nth-child(3) {
+    border-radius: 50%;
+    top: 27%;
+    left: 1%;
+    animation: animate 9s linear infinite;
+  }
+  .box div:nth-child(4) {
+    border-radius: 50%;
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+  }
+  .box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+  }
+  .box div:nth-child(7) {
+    border-radius: 50%;
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+  }
+  .box div:nth-child(8) {
+    top: 52%;
+    left: 32%;
+    animation: animate 10s linear infinite;
+  }
+  .box div:nth-child(9) {
+    top: 92%;
+    left: 42%;
+    animation: animate 7s linear infinite;
+  }
+  .box div:nth-child(10) {
+    top: 40%;
+    border-radius: 10%;
+    left: 70%;
+    animation: animate 7s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: scale(0) translateY(0) rotate(0);
+    }
+    100% {
+      transform: scale(1.3) translateY(-90px) rotate(360deg);
+    }
+  }
+  .logo {
+    font-family: "Righteous", cursive;
+    padding: 15px;
+  
+    font-size: 60px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar .headings ul {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .navbar .headings ul li {
+    list-style-type: none;
+    padding: 15px;
+  }
+  .headings input {
+    padding: 10px;
+    padding-left: 17px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 30px;
+  }
+  .headings input:hover {
+    background-color: rgb(185, 183, 183);
+  }
+  .log-in {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .log-in a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .info {
+    font-family: "Bubblegum Sans", cursive;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  
+    margin-top: 30px;
+  }
+  .info img {
+    width: 20%;
+    size: 20px;
+    float: right;
+    position: static;
+    margin-top: -7%;
+    margin-right: 5%;
+    border-radius: 10px;
+  }
+  
+  .friends {
+    padding-left: 600px;
+  }
+  .profile {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+  /* body{
+      background-color: rgb(27, 27, 27);
+  } */
+  .info p {
+    color: rgb(182, 181, 181);
+    padding: 30px;
+  }
+  .info ul {
+    color: white;
+    font-size: 20px;
+    padding-left: 100px;
+  }
+  .timings {
+    text-align: center;
+  }
+  
+  .info i1 {
+    color: rgb(7, 119, 224);
+    padding-right: 30px;
+  }
+  .info i2 {
+    color: rgb(231, 112, 15);
+    padding-right: 30px;
+  }
+  .info i3 {
+    color: rgb(20, 204, 20);
+    padding-right: 30px;
+  }
+  .info i0 {
+    color: rgb(24, 224, 174);
+    padding-right: 30px;
+  }
+  .info i4 {
+    color: white;
+    padding-right: 30px;
+  }
+  .info i5 {
+    padding-right: 30px;
+    color: rgb(245, 26, 128);
+  }
+  .games {
+    background-image: url(https://www.onlinelogomaker.com/blog/wp-content/uploads/2019/08/load-image-3.jpg);
+    background-size: cover;
+    
+    width: 60%;
+    height: 30%;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 0px;
+    margin-left: 17%;
+  }
+  .under img{
+      float: left;
+      margin-top: -2%;
+      margin-left: 6%;
+  }
+  .fortnite img{
+    float: left;
+      margin-top: -2%;
+      margin-left: 6%;
+  }
+  .nfs img{
+    width: 40%;
+    float: right;
+    margin-right: 37%;
+    margin-top: -45%;
+  }
+  .pubg img{
+    width: 35%;
+    margin-right: 38%;
+    margin-top: -5%;
+  }
+  .gta img{
+    width: 30%;
+    margin-right: 78%;
+    margin-top: -9%;
+  }
